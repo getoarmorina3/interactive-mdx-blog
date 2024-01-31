@@ -16,7 +16,7 @@
 
 @media (pointer: fine) {
   .wrapper:hover {
-    font-weight: 900;
+    font-weight: 700;
     transition: font-weight 100ms, transform 100ms;
     transform: translateX(-1px);
   }
