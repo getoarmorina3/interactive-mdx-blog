@@ -21,22 +21,16 @@ function Footer() {
           */}
           <p className={styles.attribution}>
             Blog template created by{' '}
-            <a href="https://www.joshwcomeau.com/">
-              Josh W. Comeau
-            </a>
-            . Check out{' '}
-            <a href="https://www.joyofreact.com/">
-              The Joy of React
-            </a>{' '}
-            to learn how to build dynamic React apps like
-            this one!
+            <a href="https://www.joshwcomeau.com/">Josh W. Comeau</a>. Check out{' '}
+            <a href="https://www.joyofreact.com/">The Joy of React</a> to learn
+            how to build dynamic React apps like this one!
           </p>
         </div>
         <nav>
           <h2 className={styles.linkHeading}>Links</h2>
           <ul className={styles.linkList}>
             <li>
-              <Link href="/rss">RSS feed</Link>
+              <Link href="/rss.xml">RSS feed</Link>
             </li>
             <li>
               <Link href="/todo">Terms of Use</Link>
@@ -45,9 +39,7 @@ function Footer() {
               <Link href="/todo">Privacy Policy</Link>
             </li>
             <li>
-              <a href="https://twitter.com/JoshWComeau">
-                Twitter
-              </a>
+              <a href="https://twitter.com/JoshWComeau">Twitter</a>
             </li>
           </ul>
         </nav>
