@@ -5,6 +5,7 @@ import { cookies } from 'next/headers';
 
 import {
   BLOG_TITLE,
+  BLOG_DESCRIPTION,
   COLOR_THEME_COOKIE_NAME,
   LIGHT_TOKENS,
   DARK_TOKENS,
@@ -33,7 +34,7 @@ export const metadata = {
     template: `%s • ${BLOG_TITLE}`,
     default: BLOG_TITLE,
   },
-  description: 'A wonderful blog about Javascript',
+  description: BLOG_DESCRIPTION,
 };
 
 function RootLayout({ children }) {
