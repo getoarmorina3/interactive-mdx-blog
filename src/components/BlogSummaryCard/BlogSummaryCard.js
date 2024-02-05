@@ -18,11 +18,7 @@ function BlogSummaryCard({ slug, title, publishedOn, abstract }) {
       <time dateTime={publishedOn}>{humanizedDate}</time>
       <p>
         {abstract}{' '}
-        <Link
-          prefetch={true}
-          href={href}
-          className={styles.continueReadingLink}
-        >
+        <Link href={href} className={styles.continueReadingLink}>
           Continue reading <span className={styles.arrow}>→</span>
         </Link>
       </p>
