@@ -30,6 +30,7 @@ const monoFont = Spline_Sans_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://interactive-mdx-blog.vercel.app/'),
   title: {
     template: `%s • ${BLOG_TITLE}`,
     default: BLOG_TITLE,
