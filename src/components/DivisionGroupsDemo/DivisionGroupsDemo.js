@@ -19,8 +19,6 @@ function DivisionGroupsDemo({
 
   const numOfItemsPerGroup = Math.floor(numOfItems / numOfGroups);
 
-  const totalNumInGroups = numOfItemsPerGroup * numOfGroups;
-
   const remainder = includeRemainderArea ? numOfItems % numOfGroups : null;
 
   // When we're splitting into 1-3 groups, display side-by-side
