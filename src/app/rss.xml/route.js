@@ -26,7 +26,7 @@ export async function GET() {
   });
 
   // Generate the raw XML string using `feed.xml`, and then
-  // send it to the client. We need to set the Content-Type
+  // send it to the client. Set the Content-Type
   // header so that browsers / RSS clients will interpret
   // it as XML, and not as plaintext.
   return new Response(feed.xml({ indent: true }), {
