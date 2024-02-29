@@ -1,5 +1,5 @@
 import React from 'react';
-import { Work_Sans, Spline_Sans_Mono } from 'next/font/google';
+import { Kantumruy_Pro, Spline_Sans_Mono } from 'next/font/google';
 import clsx from 'clsx';
 import { cookies } from 'next/headers';
 
@@ -16,7 +16,7 @@ import Footer from '@/components/Footer';
 import RespectMotionPreferences from '@/components/RespectMotionPreferences';
 import './styles.css';
 
-const mainFont = Work_Sans({
+const mainFont = Kantumruy_Pro({
   subsets: ['latin'],
   display: 'fallback',
   weight: 'variable',
